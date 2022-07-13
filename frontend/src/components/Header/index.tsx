@@ -1,4 +1,4 @@
-import logo from '../../assets/img/logo.svg'
+import logo from '../../assets/img/ESTILO_DRIFT.png'
 import './style.css'
 
 function Header() {
@@ -6,11 +6,12 @@ function Header() {
         <header>
             <div className="dsmeta-logo-container">
                 <img src={logo} alt="DSMeta" />
-                <h1>DSMeta</h1>
+                <h1>Estilo Drift Customs</h1>
+                {/*
                 <p>
                     Desenvolvido por
                     <a href="https://www.instagram.com/vinicius.tomazin/">@vincius.tomazin</a>
-                </p>
+                </p>*/}
             </div>
         </header>
     )
